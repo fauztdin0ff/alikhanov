@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style-v4.css">
+   <link rel="icon" href="favicon.png" sizes="any">
+   <meta name="description" content="Производство премиальных ограждений конструкции из черного металла и алюминия">
+   <meta property="og:title" content="Конструирование из металла">
+   <meta property="og:description"
+      content="Производство премиальных ограждений конструкции из черного металла и алюминия">
+   <meta property="og:image" content="img/home/main-bg.webp">
+   <meta property="og:url" content="">
+   <meta property="og:type" content="website">
+   <title>Конструирование из металла</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body container">
+            <div class="header__logo">
+               <a href="index.html">AG | ALIKHANOV GROUP</a>
+            </div>
+            <div class="header__menu menu">
+               <div class="menu__icon">
+                  <span></span>
+               </div>
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li><a href="production.html" class="menu__link">Производство</a></li>
+                     <li><a href="about.html" class="menu__link">О нас</a></li>
+                     <li class="menu__item-with-submenu" id="catalogMenuItem">
+                        <a href="catalog.html" class="menu__link">
+                           Каталог
+                           <span class="arrow" id="arrow1">
+                              <svg width="15px" height="15px" viewBox="0 0 5 9">
+                                 <path
+                                    d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" />
+                              </svg>
+                           </span>
+                        </a>
+                        <ul class="submenu" id="submenu1">
+                           <li><a href="zabory.html" class="submenu__link">Заборы</a></li>
+                           <li><a href="vorota-i-kalitki.html" class="submenu__link">Ворота и калитки</a>
+                           </li>
+                           <li><a href="ograjdeniya.html" class="submenu__link">Ограждения</a></li>
+                           <li><a href="navesy.html" class="submenu__link">Навесы</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                  </ul>
+                  <div class="menu__add-links">
+                     <a href=""><svg width="35" height="35" viewBox="0 0 20 20">
+                           <path
+                              d="M13.55,1H6.46C3.45,1,1,3.44,1,6.44v7.12c0,3,2.45,5.44,5.46,5.44h7.08c3.02,0,5.46-2.44,5.46-5.44V6.44 C19.01,3.44,16.56,1,13.55,1z M17.5,14c0,1.93-1.57,3.5-3.5,3.5H6c-1.93,0-3.5-1.57-3.5-3.5V6c0-1.93,1.57-3.5,3.5-3.5h8 c1.93,0,3.5,1.57,3.5,3.5V14z">
+                           </path>
+                           <circle cx="14.87" cy="5.26" r="1.09"></circle>
+                           <path
+                              d="M10.03,5.45c-2.55,0-4.63,2.06-4.63,4.6c0,2.55,2.07,4.61,4.63,4.61c2.56,0,4.63-2.061,4.63-4.61 C14.65,7.51,12.58,5.45,10.03,5.45L10.03,5.45L10.03,5.45z M10.08,13c-1.66,0-3-1.34-3-2.99c0-1.65,1.34-2.99,3-2.99s3,1.34,3,2.99 C13.08,11.66,11.74,13,10.08,13L10.08,13L10.08,13z">
+                           </path>
+                        </svg></a>
+                     <div class="header__telephones">
+                        <a href="tel:+78122132601">+7 812 213 26 01</a>
+                        <a href="tel:+79320006666">+7 932 000 66 66</a>
+                     </div>
+                     <div class="header__address">Санкт-Петербург, ул.Новороссийская, д.53А, офис 305</div>
+                     <div class="header__schedule">
+                        <p>Понедельник-Пятница</p>
+                        <p>10:00 - 18:00</p>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+            <div class="header__telephone">
+               <a href="tel:+79320006666">+7 932 000 66 66</a>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="preloader">
+            <img src="img/loading.gif" alt="loading">
+         </div>
+         <section class="home">
+            <div class="home__body container">
+               <div class="home__text">
+                  <div class="home__title">
+                     <h1 class="element-animation">Конструирование из металла <span>От идеи до воплощения</span></h1>
+                  </div>
+                  <div class="home__subtitle">
+                     <h2 class="element-animation">Производство премиальных ограждений конструкции из черного металла и
+                        алюминия</h2>
+                  </div>
+                  <div class="home__links element-animation">
+                     <button class=" home__link red-link open-modal" id="open-modal">Сделать заказ вне очереди</button>
+                     <a href="" class="home__link black-link2">Скачать прайс</a>
+                  </div>
+               </div>
+            </div>
+            <div class="order-modal popup">
+               <div class="popup__title">Заполните форму</div>
+               <div class="popup__item">
+                  <input type="name" id="" placeholder="Ваше имя">
+               </div>
+               <div class="popup__item">
+                  <input type="mail" id="" placeholder="Ваш Email">
+               </div>
+               <div class="popup__item">
+                  <textarea type="text" id="" placeholder="Ваше сообщение"></textarea>
+               </div>
+               <div class="popup__send">
+                  <button type="submit">отправить</button>
+               </div>
+               <div class="modal__close-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+                     viewBox="0 0 16 16">
+                     <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                  </svg>
+               </div>
+            </div>
+         </section>
+         <section class="production">
+            <div class="production__body container">
+               <div class="production__title title">
+                  <h2>Мы производим</h2>
+               </div>
+               <div class="production__content">
+                  <div class="production__cards">
+                     <div class="production__card element-animation">
+                        <div class="production__image">
+                           <img src="img/home/zabor.webp" alt="Производство заборов">
+                        </div>
+                        <div class="production__name">
+                           <a href="zabory.html">Заборы</a>
+                        </div>
+                     </div>
+                     <div class="production__card element-animation">
+                        <div class="production__image">
+                           <img src="img/home/Vorota.webp" alt="Производство заборов">
+                        </div>
+                        <div class="production__name">
+                           <a href="vorota-i-kalitki.html">Ворота</a>
+                        </div>
+                     </div>
+                     <div class="production__card element-animation">
+                        <div class="production__image">
+                           <img src="img/home/naves.webp" alt="Производство заборов">
+                        </div>
+                        <div class="production__name">
+                           <a href="navesy.html">Навесы</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="about">
+            <div class="about__body container">
+               <div class="about__title title">
+                  <h2>О нас</h2>
+               </div>
+               <div class="about__content">
+                  <div class="about__text">
+                     <p>Мы начали свою деятельность в 2016 году. За это время мы собрали большую команду профессионалов
+                        узкого профиля в сфере строительства. Мы изготавливаем заборы, ворота, калитки, навесы
+                        ограждения любых видов, мебель в стиле лофт и прочие металлические конструкции. Также занимаемся
+                        монолитными работами, строительством зон отдыха и др.</p>
+                     <p>Наша миссия заключается в том, чтобы производить качественные изделия, товары и услуги.
+                        Выстраивать долгосрочные и перспективные отношения в любой сфере деятельности. Уверенность ,
+                        качество, прозрачность – наши основные принципы сотрудничества</p>
+                     <div class="about__link black-link">
+                        <a href="about.html">Подробнее</a>
+                     </div>
+                  </div>
+                  <div class="about__image  element-animation">
+                     <img src="img/home/o nas.webp" alt="О нас">
+                  </div>
+               </div>
+               <div class="about__painting">
+                  <p>Алиханов Магомед</p>
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     x="0px" y="0px" width="850" height="312" viewBox="0 0 1000 367"
+                     enable-background="new 0 0 1000 367" xml:space="preserve" class="element-animation"
+                     uk-scrollspy-class="uk-animation-stroke" style="--uk-animation-stroke: 1865px;" id="paintingSvg">
+                     <path id="paintingPath1" class="element-animation" fill="none" stroke="#000000" stroke-width="4"
+                        stroke-linecap="round" stroke-miterlimit="10"
+                        d="M574.43,5.29
+                        c-33.67,44.99-75.601,81.45-120.26,114.79c-35.48,26.4-73.25,51.66-101.29,86.311c-15.4,19-26.94,40.81-34,64.229">
+                     </path>
+                     <path id="paintingPath2" class="element-animation" fill="none" stroke="#000000" stroke-width="4"
+                        stroke-linecap="round" stroke-miterlimit="10" d="M574.65,5.12
+                        c-24.11,32.31-50.729,62.75-75.93,94.24c-32.63,39.37-62.76,80.76-90.19,123.919c-10.39,16.951-20.939,36.351-21.859,56.631
+                        c-0.71,11.859,2.729,24.22,14.54,29.35c13.56,5.85,30.119,1.42,43.13-3.66c24.76-9.729,46.79-26.459,66.63-43.729
+                        c34.6-30.39,57.01-74.5,74.069-116.38c9.32-22.25,16.53-45.33,21.54-68.93c2.881-12.66,4.221-25.61,3.99-38.59
+                        c-0.33-8.75-3.77-17.49-14.27-11.59c-8.36,4.76-13.28,16.4-17.271,24.6c-17.09,36.19-29.93,74.23-38.26,113.37
+                        c-5.07,20.73-8.51,41.82-10.28,63.08c-1.85,16.95-0.56,34.09,3.83,50.561c2.93,12.24,12.09,22.02,24.11,25.75
+                        c17.16,4.32,35.8-3.77,50.51-11.75c12.1-6.76,23.64-14.5,34.49-23.12c15.91-12.351,31.92-25.42,43.13-42.31
+                        c7.43-11.261,16.399-28.261,10.93-42.09c-5.47-13.831-21.859-12.791-33.51-9.571c-21.43,5.98-40.521,18.411-54.66,35.59
+                        c-10.55,13.449-20.17,32.359-17.87,49.959c2.3,17.601,19.19,21.541,34.44,19.191c21.859-3.441,41.43-16.021,61.77-24.32
+                        c9.57-3.94,20.55-7.82,30.99-5.471c5.23,1.061,9.9,3.99,13.12,8.25c2.45,4.221,5.45,8.1,8.91,11.53
+                        c11.97,9.399,28.21,3.06,40.069-2.409c7.931-3.66,17.11-1.201,25.141,1.039c75.75,17.28,110.72,10.221,132.54,4.051
+                        c17.22-4.49,41.109-6.34,53.569,9.18"></path>
+                     <path id="paintingPath3" class="element-animation" fill="none" stroke="#000000" stroke-width="4"
+                        stroke-linecap="round" stroke-miterlimit="10" d="M5.93,177.21
+                        c14.83-9.04,29.22-16.86,45.95-26.62c44.99-26.84,144.46-77.61,164.04-85.61c10.28-4.2,20.729-7.9,31.37-10.82
+                        c9.35-2.62,26.779-8.09,34.38,1.53c7.6,9.62,0,24.71-4.431,33.4c-10.369,20.27-22.81,39.41-37.119,57.12
+                        c-19.46,25.47-40.4,49.8-61.82,73.63c-25.42,28.21-51.66,55.7-78.33,82.7c-14.49,14.649-28.75,29.851-44.11,43.729
+                        c-6.229,5.471-23.229,20.061-29.68,7.871c-2.11-4.761-3.1-9.94-2.9-15.141c0.74-17.471,6.061-34.43,15.41-49.2
+                        c13.7-22.579,32.08-41.96,53.9-56.851c26.06-18.379,55.97-30.569,87.46-35.639c25.189-3.451,52.4-6.57,77.8-5.371
+                        c10.93,0,19.63,1.061,32.49,2.021"></path>
+                     <circle class="element-animation" fill="none" stroke="#fe4634" stroke-width="4"
+                        stroke-linecap="round" stroke-miterlimit="10" cx="232.471" cy="297" r="5.03"></circle>
+                  </svg>
+               </div>
+            </div>
+         </section>
+         <section class="advantages" loading="lazy">
+            <div class="advantages__body container">
+               <div class="advantages__title title">
+                  <h2>Наши преимущества</h2>
+               </div>
+               <div class="advantages__content">
+                  <div class="advantages__cards">
+                     <div class="advantages__card  element-animation">
+                        <div class="advantages__image">
+                           <img src="img/home/Svoe-proizvostvo.webp" alt="Наши преимущества">
+                        </div>
+                        <div class="advantages__text">
+                           <h6>Огромный опыт. Работаем с Юр. и Физ. Лицами. Различные варианты оплаты</h6>
+                        </div>
+                     </div>
+                     <div class="advantages__card  element-animation">
+                        <div class="advantages__image">
+                           <img src="img/home/new2.webp" alt="Наши преимущества">
+                        </div>
+                        <div class="advantages__text">
+                           <h6>Собственный покрасочный цех. Красим порошковой краской</h6>
+                        </div>
+                     </div>
+                     <div class="advantages__card  element-animation">
+                        <div class="advantages__image">
+                           <img src="img/catalog/3.webp" alt="Наши преимущества">
+                        </div>
+                        <div class="advantages__text">
+                           <h6>Свое производство ковки Мы сможем реализовать все ваши предпочтения.</h6>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="projects" loading="lazy">
+            <div class="projects__body container">
+               <div class="projects__title title">
+                  <h2>Наши реализованные проекты</h2>
+               </div>
+               <div class="projects__content">
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/1-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/1-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/1-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект забора Жалюзи КП "Репино"</div>
+                  </div>
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/2-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/2-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/2-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект забора расчёски КП "Петергофские дачи"</div>
+                  </div>
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/3-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/3-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/3-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект забора расчёски КП "Белоостров"</div>
+                  </div>
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/4-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/4-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/4-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект секционного забора
+                        г. Кронштадт</div>
+                  </div>
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/5-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/5-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/5-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект забора, ворот с автоматикой, балконных ограждений
+                        ЖК "Бенуа" и ЖК "Бенуа-2"</div>
+                  </div>
+
+                  <div class="projects__card">
+                     <div class="projects__swiper swiper">
+                        <div class="swiper-wrapper">
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/6-1.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/6-2.webp" alt="Проект">
+                              </div>
+                           </div>
+                           <div class="projects__slide swiper-slide">
+                              <div class="projects__image">
+                                 <img src="img/home/advantages/6-3.webp" alt="Проект">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                     <div class="projects__name">Проект 3D забора, калитки.
+                        КП "Солнечное"</div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section class="join-projects" loading="lazy">
+            <div class="join-projects__body container">
+               <div class="join-projects__title title">
+                  <h2>Совместные проекты</h2>
+               </div>
+               <div class="join-projects__content">
+                  <div class="join-projects__column">
+                     <div class="join-projects__text">
+                        <p>Компания Алиханов групп приветствует заинтересованных в сотрудничестве архитекторов,
+                           строительные компании, производственные компании и дизайнеров ландшафта.</p>
+                        <p>Благодаря совместной работе было построено много оригинальных объектов.</p>
+                        <p>Вы можете также стать нашими партнёрами на выгодных условиях!</p>
+                        <div class="order__button">
+                           <button id="open-order-popup" class="open-order-popup">Стать парнером</button>
+                        </div>
+                     </div>
+                     <div class="join-projects__image1  element-animation">
+                        <img src="img/home/milenium-park.webp" alt="МИллениум парк">
+                     </div>
+                     <p>Совместно с "Фиброцем"</p>
+                  </div>
+                  <div class="join-projects__column">
+                     <div class="join-projects__image2  element-animation">
+                        <img src="img/home/zk-Benua.webp" alt="жк Benua">
+                     </div>
+                     <p>Совместно с ЖК "Бенуа"</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="faq" loading="lazy">
+            <div class="faq__body container">
+               <div class="faq__title title">
+                  <h2>Часто задаваемые вопросы</h2>
+               </div>
+               <div class="accordion">
+                  <div class="accordion-item">
+                     <div class="accordion-header">Что нужно для начала работы над забором? <span>+</span></div>
+                     <div class="accordion-content">
+                        <p>Показать 2–3 варианта забора из нашего каталога, которые вам понравились.</p>
+                        <p>Предоставить следующие документы:</p>
+                        <p>– кадастровый паспорт земельного участка;</p>
+                        <p>– ГПЗУ (градостроительный план земельного участка);</p>
+                        <p>– отчет о геологических изысканиях на земельном участке (можно заказать у нас);</p>
+                        <p>– топографическую съемку земельного участка (можно заказать у нас);</p>
+                        <p>– архитектурный проект дома или его фотографии.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <div class="accordion-header">Как происходит работа над проектом забора? <span>+</span></div>
+                     <div class="accordion-content">
+                        <p>Встреча и обсуждение задачи. На этом этапе мы встречаемся и обсуждаем техническое задание
+                           (ТЗ) по проекту. <br>
+                           На основании ТЗ, предоставленных документов и выезда замерщика проектировщик делает эскизный
+                           проект будущего забора. В процессе можно сделать правки. Эскиз доводится до состояния «всё
+                           нравится».<br>
+                           Проектировщик делает визуализацию (при необходимости).<br>
+                           Создание рабочей документации. Проектировщик готовит рабочую документацию и спецификацию.<br>
+                           Создание финального коммерческого предложения (КП). Менеджер проекта на основании данных
+                           проекта готовит финальное КП с 99% точности финальной сметы.<br>
+                           Время на создание проекта зависит от объема проектируемого забора и полноты предоставленной
+                           информации, но в среднем это 1-2 недели.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <div class="accordion-header">Для чего нужно заказать услугу замерщика? <span>+</span></div>
+                     <div class="accordion-content">
+                        <p>У замерщика 3 основные задачи:</p>
+                        <p>
+                           Сделать необходимые замеры и получить необходимую информацию о подъездных путях, наличии
+                           необходимых условий для производства работ (электричество, вода, проживание, туалет),
+                           провести опрос заказчика по брифу Топзабор.<br>
+                           Проконсультировать заказчика об особенностях разных видов ограждения, возможных сочетаниях
+                           связки фундамент – столб – заполнение забора.<br>
+                           Продемонстрировать образцы заборов, варианты цветов и текстуры.<br>
+                           В результате выезда замерщика вы получаете проработанное техническое задание на расчет
+                           забора, а менеджер проекта может посчитать коммерческое предложение с точностью 95%.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <div class="accordion-header">Какие примерные сроки установки забора? <span>+</span></div>
+                     <div class="accordion-content">
+                        <p>В среднем, на установку забора уходит от 20 до 30 рабочих дней. Точное время всегда
+                           оговаривается на этапе составления сметы.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item">
+                     <div class="accordion-header">Какие есть гарантии на выполненные работы и готовые ограждения?
+                        <span>+</span>
+                     </div>
+                     <div class="accordion-content">
+                        <p>Мы даем гарантию 18 месяцев на все наши изделия и работы. При этом понимая,
+                           что надежность и долговечность некоторых наших систем может превышать десятки лет.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="home-form" loading="lazy">
+            <div class="home-form__body container">
+               <div class="home-form__text">
+                  <h3>Не нашли своего вопроса?</h3>
+                  <p>Оставьте заявку и наш менеджер свяжется с вами</p>
+               </div>
+               <div class="home-form__form">
+                  <div class="form__item">
+                     <input type="name" id="" placeholder="Ваше имя">
+                  </div>
+                  <div class="form__item">
+                     <input type="mail" id="" placeholder="Ваш Email">
+                  </div>
+                  <div class="form__item">
+                     <textarea type="text" id="" placeholder="Ваше сообщение"></textarea>
+                  </div>
+                  <div class="form__policy">
+                     <input type="checkbox" id="checkPolicy"></input>
+                     <label for="checkPolicy">Нажимая на кнопку “Отправить”, Вы соглашаетесь с условиями Политики
+                        конфиденциальности
+                        данных.</label>
+                  </div>
+                  <div class="form__send">
+                     <button type="submit">отправить</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="address" loading="lazy">
+            <div class="address__body container">
+               <div class="address__item">
+                  <p>г. Санкт-Петербург
+                     улица Новороссийская
+                     дом 53, литера А, офис 305.</p>
+
+                  <div class="map">
+                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1f8225786b1ab7512b293b640dfee348ab85332fa0b3f0211302f8a1e56bff7a&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                  </div>
+               </div>
+               <div class="address__item">
+                  <p>Понедельник - пятница <br>
+                     <span>С 10:00 до 18:00</span>
+                  </p>
+               </div>
+               <div class="address__item">
+                  <p>г. Санкт-Петербург
+                     Студенческая улица
+                     дом 10.</p>
+
+                  <div class="map">
+                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A322813ba858f7f63a5e832217e3c64e767bdf48b88561e782fa22e6a8c871787&amp;source=constructor" width="640" height="483" frameborder="0"></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__body container">
+            <div class="footer__nav">
+               <ul class="footer__list">
+                  <li><a href="production.html" class="footer__link">Производство</a></li>
+                  <li><a href="about.html" class="footer__link">О нас</a></li>
+                  <li><a href="catalog.html" class="footer__link">Каталог</a></li>
+                  <li><a href="contacts.html" class="footer__link">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="footer__com">
+               <p>© 2024 ALIKHANOV GROUP.</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
